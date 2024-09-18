@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.contact-info {
+    margin: 10px 0;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.summary p {
+    text-align: justify; /* Justify the text alignment */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.indent {
+    margin-left:8px;
+}
+
+.declaration-name {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job h3 {
+    margin: 5px 0;
+}
+
+.job ul {
+    padding-left: 20px; /* Indentation for the job responsibilities */
+}
+
+.job h3 span {
+    font-weight: normal; /* Optional: makes the date appear less bold */
+    font-size: 0.7em;    /* Smaller font size for the date */
+    color: #666;         /* Change color for the date */
+}
+
+.education ul {
+    list-style-type: disc; /* Set bullet points */
+    padding-left: 20px; /* Indentation for bullets */
+}
+
+.education h3 {
+    margin: 0; /* Remove margin from h3 to keep it aligned */
+}
+
+.certifications ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.certifications li {
+    margin-bottom: 10px; /* Space between items */
+}
+
+.certifications li i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.certifications li .fa-trello {
+    color: #0072B1; /* Color for Trello icon */
+}
+
+.certifications li .fa-snowflake {
+    color: #00ADEF; /* Color for Snowflake icon */
+}
+
+.certifications li .fa-aws {
+    color: #FF9900; /* Color for AWS icon */
+}
+
+.certifications li .fa-database {
+    color: #4CAF50; /* Color for Databricks icon */
+}
+
+.divider {
+    border: none; /* Remove default border */
+    border-top: 2px solid #4CAF50; /* Set the color and thickness */
+    margin: 20px 0; /* Add some space above and below */
+}
+
+
